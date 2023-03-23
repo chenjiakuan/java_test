@@ -1,9 +1,14 @@
 package oop;
 
+import java.util.Date;
+
 public class Season1 {
     public static void main(String[] args) {
         System.out.println(Season2.autumn.getClass());
         System.out.println(Season2.winter.getClass().getSuperclass());
+
+        Date d1=new Date();
+        System.out.println(d1);
     }
 }
 
